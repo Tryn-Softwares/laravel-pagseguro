@@ -1,6 +1,6 @@
 <?php
 
-namespace Artistas\PagSeguro;
+namespace TryN\PagSeguro;
 
 use Illuminate\Support\Facades\Facade;
 
