@@ -1,13 +1,13 @@
 <?php
 
-namespace Artistas\PagSeguro;
+namespace TryN\PagSeguro;
 
 use Illuminate\Support\Facades\Facade;
 
-class PagSeguroFacade extends Facade
+class PagSeguroRecorrenteFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'pagseguro';
+        return 'pagseguro_recorrente';
     }
 }

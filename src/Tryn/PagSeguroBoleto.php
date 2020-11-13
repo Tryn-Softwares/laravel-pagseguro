@@ -1,6 +1,6 @@
 <?php
 
-namespace Artistas\PagSeguro;
+namespace TryN\PagSeguro;
 
 class PagSeguroBoleto extends PagSeguroClient
 {

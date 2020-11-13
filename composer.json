@@ -1,18 +1,18 @@
 {
-    "name": "artistas/laravel-pagseguro",
-    "description": "PagSeguro Checkout Transparente e Pagamento Recorrente(Assinaturas) no Laravel 5.*, 6.* e 7.*",
+    "name": "tryn-softwares/laravel-pagseguro",
+    "description": "PagSeguro Checkout Transparente e Pagamento Recorrente(Assinaturas) no Laravel",
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "pagseguro", "transparente", "recorrente", "assinaturas"],
     "authors": [
         {
-            "name": "Fernando Henrique Bandeira",
-            "email": "fernando.bandeira94@gmail.com"
+            "name": "Allan Barbosa Ferreira",
+            "email": "allan.frb@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Artistas\\PagSeguro\\": "src/Artistas/"
+            "TryN\\PagSeguro\\": "src/Tryn/"
         }
     },
     "minimum-stability": "dev",
@@ -23,12 +23,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Artistas\\PagSeguro\\PagSeguroServiceProvider"
+                "TryN\\PagSeguro\\PagSeguroServiceProvider"
             ],
             "aliases": {
-                "PagSeguro": "Artistas\\PagSeguro\\PagSeguroFacade",
-                "PagSeguroRecorrente": "Artistas\\PagSeguro\\PagSeguroRecorrenteFacade",
-                "PagSeguroBoleto": "Artistas\\PagSeguro\\PagSeguroBoletoFacade"
+                "PagSeguro": "TryN\\PagSeguro\\PagSeguroFacade",
+                "PagSeguroRecorrente": "TryN\\PagSeguro\\PagSeguroRecorrenteFacade",
+                "PagSeguroBoleto": "TryN\\PagSeguro\\PagSeguroBoletoFacade"
             }
         }
     }

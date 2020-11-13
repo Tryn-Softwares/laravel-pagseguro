@@ -1,10 +1,10 @@
 <?php
 
-namespace Artistas\PagSeguro;
+namespace TryN\PagSeguro;
 
 class PagSeguroController
 {
-    /** @var \Artistas\PagSeguro\PagSeguroClient */
+    /** @var \TryN\PagSeguro\PagSeguroClient */
     private $pagseguro;
 
     /**
